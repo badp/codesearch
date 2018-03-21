@@ -67,7 +67,7 @@ func Create(file string) *IndexWriter {
 		main:      bufCreate(file),
 		post:      make([]postEntry, 0, npost),
 		inbuf:     make([]byte, 16384),
-		logSkip:   true,
+		LogSkip:   true,
 	}
 }
 
